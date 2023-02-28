@@ -14,7 +14,7 @@ function JobCard(props)
            </div>
            <div className="filterTags"><p className="filter1">{props.filter1}</p>{props.filter2 !== null ? (<p className="filter2">{props.filter2}</p>) :null}</div>
            <div className="ApplyButtonTableColumn"><div className="applyButton">تقديم</div></div>
-           <Moment className="timePosted" fromNow ago>2023-02-27T12:59-0500</Moment>
+           <div className="timePosted"><Moment fromNow ago>2023-02-27T12:59-0500</Moment></div>
            <span className="pin" role="img" aria-label="emoji">📌</span>
         </div>
       )
