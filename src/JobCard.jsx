@@ -10,7 +10,7 @@ function JobCard(props)
            <div className="CompanyNameAndJobTitleContainer">
                <p className="jobTitle">{props.jobTitle}</p>
                <p className="companyName">{props.companyName}</p>
-               <div className="locationAndSalaryContainer">{props.jobSalary !== null ? (<p className="salary"><span role="img" aria-label="emoji">💰 </span>{props.jobSalary}</p>) :null}<p className="jobLocation"><span role="img" aria-label="emoji">🌏 </span>{props.jobLocation}</p></div>
+               <div className="locationAndSalaryContainer">{props.jobSalary !== null ? (<p className="salary" dir="rtl"><span role="img" aria-label="emoji">💰 </span>{props.jobSalary}</p>) :null}<p className="jobLocation"><span role="img" aria-label="emoji">🌏 </span>{props.jobLocation}</p></div>
            </div>
            <div className="filterTags"><p className="filter1">{props.filter1}</p>{props.filter2 !== null ? (<p className="filter2">{props.filter2}</p>) :null}</div>
            <div className="ApplyButtonTableColumn"><div className="applyButton">تقديم</div></div>
