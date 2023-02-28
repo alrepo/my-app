@@ -10,7 +10,8 @@ let jobs = [
     salary: "100k-150k",
     filter1: "طباخ",
     filter2: "فاين دايننق",
-    cardOptions: {fixed: 0, highlight: false, showLogo: true}
+    cardOptions: {fixed: 0, highlight: false, showLogo: true},
+    timePosted: "2023-02-27T12:59-0500"
   },
   {
     jobTitle: "Opration Manager",
@@ -20,7 +21,8 @@ let jobs = [
     salary: "100k-150k",
     filter1: "Manager",
     filter2: "Fast Food",
-    cardOptions: {fixed: 1, highlight: true, showLogo: true}
+    cardOptions: {fixed: 1, highlight: true, showLogo: true},
+    timePosted: "2023-02-27T12:59-0500"
   },
   {
     jobTitle: "Barista",
@@ -30,7 +32,8 @@ let jobs = [
     salary: null,
     filter1: "Barista",
     filter2: "Drive Thru",
-    cardOptions: {fixed: 0, highlight: false, showLogo: false}
+    cardOptions: {fixed: 0, highlight: false, showLogo: false},
+    timePosted: "2023-02-27T12:59-0500"
   },
   {
     jobTitle: "طباخ خبير",
@@ -40,7 +43,8 @@ let jobs = [
     salary: "100k-150k",
     filter1: "طباخ",
     filter2: "فاين دايننق",
-    cardOptions: {fixed: 0, highlight: false, showLogo: true}
+    cardOptions: {fixed: 0, highlight: false, showLogo: true},
+    timePosted: "2023-02-27T12:59-0500"
   },
   {
     jobTitle: "طباخ خبير",
@@ -50,7 +54,8 @@ let jobs = [
     salary: "100k-150k",
     filter1: "طباخ",
     filter2: "فاين دايننق",
-    cardOptions: {fixed: 0, highlight: false, showLogo: true}
+    cardOptions: {fixed: 0, highlight: false, showLogo: true},
+    timePosted: "2023-02-27T12:59-0500"
   },
   {
     jobTitle: "طباخ خبير",
@@ -60,7 +65,8 @@ let jobs = [
     salary: null,
     filter1: "طباخ",
     filter2: "فاين دايننق",
-    cardOptions: {fixed: 0, highlight: false, showLogo: true}
+    cardOptions: {fixed: 0, highlight: false, showLogo: true},
+    timePosted: "2023-02-27T12:59-0500"
   },
   {
     jobTitle: "طباخ خبير",
@@ -70,7 +76,8 @@ let jobs = [
     salary: "100k-150k",
     filter1: "طباخ",
     filter2: "فاين دايننق",
-    cardOptions: {fixed: 0, highlight: false, showLogo: true}
+    cardOptions: {fixed: 0, highlight: false, showLogo: true},
+    timePosted: "2023-02-27T12:59-0500"
   },
   {
     jobTitle: "طباخ خبير",
@@ -80,7 +87,8 @@ let jobs = [
     salary: null,
     filter1: "طباخ",
     filter2: "فاين دايننق",
-    cardOptions: {fixed: 0, highlight: false, showLogo: true}
+    cardOptions: {fixed: 0, highlight: false, showLogo: true},
+    timePosted: "2023-02-27T12:59-0500"
   }
 ]
 function creatJobCard(element)
@@ -97,6 +105,7 @@ function creatJobCard(element)
       cardFixed={element.cardOptions.fixed}
       cardHighlighted={element.cardOptions.cardHighlighted}
       cardShowLogo={element.cardOptions.showLogo}
+      timePosted={element.timePosted}
     />
   )
 }
