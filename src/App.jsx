@@ -7,7 +7,7 @@ let jobs = [
     companyName: "مطاعم ماكدونلدز",
     companyLogo: "https://pbs.twimg.com/profile_images/1625792557291651073/GDxGcTsc_400x400.png",
     location: "الرياض",
-    salary: "50-70 ألف ريال",
+    salary: "50-70",
     filter1: "طباخ",
     filter2: "فاين دايننق",
     cardOptions: {fixed: 0, highlight: false, showLogo: true}
