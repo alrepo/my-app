@@ -446,8 +446,8 @@ body
     box-shadow: none; /* Remove the box-shadow when the card is hovered */
   }
   .companyLogo {
-    max-width: 3.5rem;
-    max-height: 3.5rem;
+    max-width: 2.5rem;
+    max-height: 2.5rem;
     margin-left: auto;
     margin-right: auto;
     border: solid 0.05px;
@@ -578,6 +578,7 @@ body
       align-items: center;
       margin-left: 0.4rem;
       align-self: end;
+      font-size: 0.75rem;
     }
     .jobCard:hover .applyButton
     {
