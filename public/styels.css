@@ -383,6 +383,7 @@ body
       align-items: center;
       margin-left: 0.4rem;
       align-self: end;
+      font-size: 0.75rem;
     }
     .jobCard:hover .applyButton
     {
