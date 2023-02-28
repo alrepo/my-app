@@ -17,7 +17,7 @@ let jobs = [
     companyName: "Rabbit Restaurant",
     companyLogo: "https://img.freepik.com/premium-vector/rabbit-cartoon-logo-design-vector-illustration_256145-308.jpg?w=2000",
     location: "Makka",
-    salary: "SAR 100k-150k",
+    salary: "100k-150k",
     filter1: "Manager",
     filter2: "Fast Food",
     cardOptions: {fixed: 1, highlight: true, showLogo: true}
