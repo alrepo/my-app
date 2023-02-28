@@ -206,7 +206,7 @@ body
 }
 
 }
-  @media only screen and (max-width: 730.4px) {
+  @media only screen and (max-width: 730.49px) {
     .postButton {
       position:absolute;
       top: 1rem;
@@ -320,7 +320,7 @@ body
   .filterTags
   {
     grid-column: 3 / 5;
-    justify-self: center;
+    justify-self: start;
     align-self: center;
   }
   .filter1
