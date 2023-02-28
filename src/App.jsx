@@ -6,8 +6,8 @@ let jobs = [
     jobTitle: "طباخ خبير",
     companyName: "مطاعم ماكدونلدز",
     companyLogo: "https://pbs.twimg.com/profile_images/1625792557291651073/GDxGcTsc_400x400.png",
-    location: "الرياض",
-    salary: "50-70",
+    location: "المنطقة الشرقية",
+    salary: "100k-150k",
     filter1: "طباخ",
     filter2: "فاين دايننق",
     cardOptions: {fixed: 0, highlight: false, showLogo: true}
@@ -37,7 +37,7 @@ let jobs = [
     companyName: "مطاعم ماكدونلدز",
     companyLogo: "https://pbs.twimg.com/profile_images/1625792557291651073/GDxGcTsc_400x400.png",
     location: "الرياض",
-    salary: "50-70 ألف ريال",
+    salary: "100k-150k",
     filter1: "طباخ",
     filter2: "فاين دايننق",
     cardOptions: {fixed: 0, highlight: false, showLogo: true}
@@ -47,7 +47,7 @@ let jobs = [
     companyName: "مطاعم ماكدونلدز",
     companyLogo: "https://pbs.twimg.com/profile_images/1625792557291651073/GDxGcTsc_400x400.png",
     location: "الرياض",
-    salary: "50-70 ألف ريال",
+    salary: "100k-150k",
     filter1: "طباخ",
     filter2: "فاين دايننق",
     cardOptions: {fixed: 0, highlight: false, showLogo: true}
@@ -57,7 +57,7 @@ let jobs = [
     companyName: "مطاعم ماكدونلدز",
     companyLogo: "https://pbs.twimg.com/profile_images/1625792557291651073/GDxGcTsc_400x400.png",
     location: "الرياض",
-    salary: "50-70 ألف ريال",
+    salary: null,
     filter1: "طباخ",
     filter2: "فاين دايننق",
     cardOptions: {fixed: 0, highlight: false, showLogo: true}
@@ -67,7 +67,7 @@ let jobs = [
     companyName: "مطاعم ماكدونلدز",
     companyLogo: "https://pbs.twimg.com/profile_images/1625792557291651073/GDxGcTsc_400x400.png",
     location: "الرياض",
-    salary: "50-70 ألف ريال",
+    salary: "100k-150k",
     filter1: "طباخ",
     filter2: "فاين دايننق",
     cardOptions: {fixed: 0, highlight: false, showLogo: true}
@@ -77,7 +77,7 @@ let jobs = [
     companyName: "مطاعم ماكدونلدز",
     companyLogo: "https://pbs.twimg.com/profile_images/1625792557291651073/GDxGcTsc_400x400.png",
     location: "الرياض",
-    salary: "50-70 ألف ريال",
+    salary: null,
     filter1: "طباخ",
     filter2: "فاين دايننق",
     cardOptions: {fixed: 0, highlight: false, showLogo: true}
