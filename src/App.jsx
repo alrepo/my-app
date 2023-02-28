@@ -10,7 +10,7 @@ let jobs = [
     salary: "100k-150k",
     filter1: "طباخ",
     filter2: "فاين دايننق",
-    cardOptions: {fixed: 0, highlight: false, showLogo: true},
+    cardOptions: {fixed: 7, highlight: false, showLogo: true},
     timePosted: "2023-02-27T12:59-0500"
   },
   {
@@ -32,7 +32,7 @@ let jobs = [
     salary: null,
     filter1: "Barista",
     filter2: "Drive Thru",
-    cardOptions: {fixed: 0, highlight: false, showLogo: false},
+    cardOptions: {fixed: 30, highlight: false, showLogo: false},
     timePosted: "2023-02-27T12:59-0500"
   },
   {

@@ -15,7 +15,7 @@ function JobCard(props)
            <div className="filterTags"><p className="filter1">{props.filter1}</p>{props.filter2 !== null ? (<p className="filter2">{props.filter2}</p>) :null}</div>
            <div className="ApplyButtonTableColumn"><div className="applyButton">تقديم</div></div>
            <div className="timePosted"><Moment fromNow ago>{props.timePosted}</Moment></div>
-           <span className="pin" role="img" aria-label="emoji">📌</span>
+           {props.cardFixed > 0 ? (<span className="pin" role="img" aria-label="emoji">📌</span>):null}
         </div>
       )
 }
