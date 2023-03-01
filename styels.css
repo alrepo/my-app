@@ -640,10 +640,10 @@
   
   .search-container input[type="text"] {
     border: none;
-    padding: 0.5rem;
     font-size: 1.1rem;
+    padding: 0.5rem;
     background-color: #f1f1f1;
-    width: 100%;
+    width: 85%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     text-align: right;
@@ -651,13 +651,14 @@
   }
   
   .search-container button[type="submit"] {
-    background-color: white;
     color: white;
+    background-color: white;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 2rem;
-    height: 2.5rem;
+    width: 15%;
+    height: 100%;
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
@@ -666,10 +667,10 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .searchIcon
+  .fa-search
   {
     background-color: white;
-    color: red;
+    color: black;
     border: none;
     cursor: pointer;
   }
