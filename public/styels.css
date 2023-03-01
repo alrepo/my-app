@@ -667,13 +667,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .fa-search
-  {
-    background-color: white;
-    color: black;
-    border: none;
-    cursor: pointer;
-  }
   .search-container button[type="submit"]:hover {
     background-color: white;
   }
@@ -719,3 +712,33 @@
       padding: 10px;
     }
   }  
+
+  @media screen and (max-width: 630px) {
+    .search-container input[type="text"] {
+      border: none;
+      font-size: 1.1rem;
+      background-color: #f1f1f1;
+      width: 80%;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      text-align: right;
+      direction: rtl;
+    }
+    
+    .search-container button[type="submit"] {
+      color: white;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 15%;
+      height: 100%;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
