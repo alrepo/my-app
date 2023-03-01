@@ -1,5 +1,6 @@
 import React from "react";
 import JobCard from "./JobCard";
+import SearchBar from "./SearchBar";
 
 let jobPosts = [
   {
@@ -113,7 +114,10 @@ function App()
 {
   return(
     <div>
-      <div className="postButton">أنشر إعلان وظيفي</div>
+      <div className="postButtonContainer"><div className="postButton">أنشر إعلان وظيفي</div></div>
+      <div>
+        <SearchBar />
+      </div>
       <div className="cardsContainer">
         {jobPosts.map(creatJobCard)}
       </div>
