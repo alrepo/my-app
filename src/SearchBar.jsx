@@ -3,7 +3,7 @@ import React from 'react';
 function SearchBar() {
   return (
     <div className="search-container" dir="rtl">
-      <form>
+      <form action="/" method="post">
         <input type="text" placeholder="ابحث بالمسمى الوظيفي..." />
         <button type="submit"><i class="fas fa-search"></i></button>
       </form>
