@@ -1,7 +1,7 @@
 import React from "react";
 import JobCard from "./JobCard";
 
-let jobs = [
+let jobPosts = [
   {
     jobTitle: "طباخ خبير",
     companyName: "مطاعم ماكدونلدز",
@@ -115,7 +115,7 @@ function App()
     <div>
       <div className="postButton">أنشر إعلان وظيفي</div>
       <div className="cardsContainer">
-        {jobs.map(creatJobCard)}
+        {jobPosts.map(creatJobCard)}
       </div>
     </div>
   )
