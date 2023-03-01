@@ -6,7 +6,7 @@ function SearchBar() {
     <div className="search-container" dir="rtl">
       <form>
         <input type="text" placeholder="ابحث بالمسمى الوظيفي..." />
-        <button type="submit"><FaSearch className='searchIcon'/></button>
+        <button type="submit"><i class="fas fa-search"></i></button>
       </form>
       <div className="filter-container">
         <div className="filter">
