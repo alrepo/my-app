@@ -1,7 +1,6 @@
 import React from "react";
 import JobCard from "./JobCard";
 import SearchBar from "./SearchBar";
-import SearchBar2 from "./SearchBar2";
 
 
 let jobPosts = [
