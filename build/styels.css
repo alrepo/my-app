@@ -415,11 +415,18 @@
     }
   }
   @media only screen and (max-width: 630px) {
+    .postButtonContainer
+    {
+      width: 100%;
+      display: flex;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
     .postButton {
-      position:absolute;
-      top: 1rem;
-      right: 1rem;
-      left: auto;
+      position: relative;
+      margin-top: 1rem;
+      margin-right: 1rem;
+      margin-left: auto;
       display: inline-block;
       padding: 10px 20px;
       font-size: 14px;
@@ -646,7 +653,7 @@
   .search-container button[type="submit"] {
     background-color: white;
     color: white;
-    width: 10%;
+    width: 20%;
     height: 2.5rem;
     border: none;
     padding: 12px 15px;
