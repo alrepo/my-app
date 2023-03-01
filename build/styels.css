@@ -672,7 +672,6 @@
     {
       outline: none;
       box-shadow: 0px 0px 10px rgb(238, 118, 118);
-      -webkit-box-shadow: px 0px 10px rgb(238, 118, 118);
     }
     .search-container input[type="text"]
     {
@@ -733,7 +732,6 @@
     {
       outline: none;
       box-shadow: 0px 0px 10px rgb(238, 118, 118);
-      -webkit-box-shadow: px 0px 10px rgb(238, 118, 118);
     }
     .search-container input[type="text"]
     {
