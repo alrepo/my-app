@@ -641,17 +641,33 @@
   }
   .filter select {
     font-size: 16px;
-    padding: 12px;
+    padding: 10px;
+    margin-top: 0.5rem;
     background-color: #f1f1f1;
     border: none;
     cursor: pointer;
     border-radius: 10px;
     text-align: right;
+    direction: rtl;
   }
   
   .filter select:focus {
     outline: none;
     background-color: #ddd;
+  }
+  .searchButton
+  {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem;
   }
   @media screen and (min-width: 630.05px) {
     /* New Search Bar */
