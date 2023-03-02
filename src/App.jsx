@@ -3,7 +3,7 @@ import JobCard from "./JobCard";
 import SearchBar from "./SearchBar";
 
 
-let jobPosts = [
+let jobs = [
   {
     jobTitle: "طباخ خبير",
     companyName: "مطاعم ماكدونلدز",
@@ -13,7 +13,8 @@ let jobPosts = [
     filter1: "طباخ",
     filter2: "فاين دايننق",
     cardOptions: {fixed: 7, highlight: false, showLogo: true},
-    timePosted: "2023-02-27T12:59-0500"
+    timePosted: "2023-02-27T12:59-0500",
+    url:""//{}
   },
   {
     jobTitle: "Opration Manager",
@@ -120,7 +121,7 @@ function App()
         <SearchBar />
       </div>
       <div className="cardsContainer">
-        {jobPosts.map(creatJobCard)}
+        {jobs.map(creatJobCard)}
       </div>
     </div>
   )
