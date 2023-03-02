@@ -726,6 +726,10 @@
       border-color:rgb(253, 71, 71);
       background-color: white;
     }
+    .searchButton
+    {
+      padding: 0px 15px;
+    }
   }
 
   @media screen and (max-width: 630.04px) {
@@ -807,7 +811,7 @@
     }
     .searchButton
     {
-      padding: 2px 15px;
+      padding: 0px 15px;
     }
     .searchButton:hover
     {
