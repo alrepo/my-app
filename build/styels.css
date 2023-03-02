@@ -545,7 +545,6 @@
     display: inline-block;
     border: solid 0.5px;
     border-radius: 0.6rem;
-    margin-left: 4px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     font-size: 0.75rem;
@@ -791,10 +790,20 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       justify-items: center;
+      background-color: antiquewhite;
+    }
+    select
+    {
+      justify-self: stretch;
     }
     .searchButton
     {
       padding: 5px 15px;
+    }
+    .searchButton:hover
+    {
+      background-color: white;
+      color: red;
     }
 
   }
