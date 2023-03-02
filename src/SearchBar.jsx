@@ -3,12 +3,12 @@ import React from 'react';
 function SearchBar() {
   return (
     <div className="search-container" dir="rtl">
-      <form action="/" method="post">
+      {/* <form action="/" method="post">
         <input type="text" placeholder="ابحث بالمسمى الوظيفي..." />
         <button type="submit"><i class="fas fa-search"></i></button>
-      </form>
+      </form> */}
       <div className="filter-container">
-        <div className="filter">
+        <div className="filter location">
           <select>
             <option value="كل المناطق">كل المناطق</option>
             <option value="الرياض">الرياض</option>
@@ -16,7 +16,15 @@ function SearchBar() {
             <option value="المنطقة الشرقية">المنطقة الشرقية</option>
           </select>
         </div>
-        <div className="filter">
+        <div className="filter classification">
+          <select>
+            <option value="كل الفئات">كل الفئات</option>
+            <option value="فاين دايننق">فاين دايننق</option>
+            <option value="وجبات سريعة">وجبات سريعة</option>
+            <option value="أبر كاجوال">أبر كاجوال</option>
+          </select>
+        </div>
+        <div className="filter jobName">
           <select>
             <option value="">كل الوظائف</option>
             <option value="full-time">طاهي/شيف</option>
@@ -24,6 +32,7 @@ function SearchBar() {
             <option value="freelance">باريستا</option>
           </select>
         </div>
+        <div className="searchButton">بحث</div>
       </div>
     </div>
   );
