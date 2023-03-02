@@ -24,7 +24,7 @@ function SearchBar() {
             <option value="أبر كاجوال">أبر كاجوال</option>
           </select>
         </div>
-        <div className="filter jobName">
+        <div className="filter jobNames">
           <select>
             <option value="">كل الوظائف</option>
             <option value="full-time">طاهي/شيف</option>
