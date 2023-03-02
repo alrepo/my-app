@@ -669,6 +669,13 @@
     transition: background-color 0.3s ease;
     margin-top: 0.5rem;
   }
+  .searchButton:hover
+  {
+    background-color: white;
+    color: red;
+    border: solid 0.5px;
+    border-color: red;
+  }
   @media screen and (min-width: 630.05px) {
     /* New Search Bar */
     .search-container form {
@@ -813,12 +820,4 @@
     {
       padding: 0px 15px;
     }
-    .searchButton:hover
-    {
-      background-color: white;
-      color: red;
-      border: solid;
-      border-color: red;
-    }
-
   }
