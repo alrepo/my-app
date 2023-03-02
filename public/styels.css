@@ -661,18 +661,18 @@
     padding: 8px 20px;
     font-size: 18px;
     font-weight: 600;
-    color: #fff;
-    background-color: red;
+    color: red;
+    background-color: white;
     border-radius: 10px;
-    border: none;
+    border: solid 0.5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 0.5rem;
   }
   .searchButton:hover
   {
-    background-color: white;
-    color: red;
+    background-color: red;
+    color: white;
     border: solid 0.5px;
     border-color: red;
   }
