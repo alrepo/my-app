@@ -637,6 +637,7 @@
   }
   .filter {
     margin-left: 10px;
+    direction: rtl;
   }
   .filter select {
     font-size: 16px;
