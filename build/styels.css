@@ -786,6 +786,12 @@
       border-color:rgb(253, 71, 71);
       background-color: white;
     } */
+    .filter-container 
+    {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+    }
     .searchButton
     {
       padding: 5px 15px;
