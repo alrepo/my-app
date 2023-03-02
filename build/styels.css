@@ -790,10 +790,12 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       justify-items: center;
+      background-color: antiquewhite;
     }
-    select
+    .filter
     {
-      justify-self: stretch;
+      display: flex;
+      justify-items: center;
     }
     .searchButton
     {
@@ -803,6 +805,7 @@
     {
       background-color: white;
       color: red;
+      border: solid;
       border-color: red;
     }
 
