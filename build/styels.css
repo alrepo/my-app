@@ -730,7 +730,7 @@
 
   @media screen and (max-width: 630px) {
     /* New Search Bar */
-    .search-container form {
+    /* .search-container form {
       margin-top: 2rem;
       display: flex;
       position: relative;
@@ -760,8 +760,8 @@
       padding-right: 6px;
       padding-left: 2.5rem;
       border: none;
-    }
-    .search-container button[type="submit"]
+    } */
+    /* .search-container button[type="submit"]
     {
       position: absolute;
       left: 0;
@@ -772,8 +772,8 @@
       width: 2.5rem;
       border: none;
       background-color: rgb(253, 71, 71);
-    }
-    .search-container button[type="submit"]:hover
+    } */
+    /* .search-container button[type="submit"]:hover
     {
       position: absolute;
       left: 0;
@@ -785,5 +785,10 @@
       border: solid;
       border-color:rgb(253, 71, 71);
       background-color: white;
+    } */
+    .searchButton
+    {
+      padding: 5px 15px;
     }
+
   }
