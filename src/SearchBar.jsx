@@ -38,7 +38,7 @@ function SearchBar() {
           <select>
             <option value="كل الوظائف">
               <span role="img" aria-label="emoji">
-                👨{" "}
+              👨‍🍳{" "}
               </span>
               كل الوظائف
             </option>
