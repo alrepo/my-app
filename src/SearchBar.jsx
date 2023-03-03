@@ -26,7 +26,7 @@ function SearchBar() {
         </div>
         <div className="filter jobNames">
           <select>
-            <option value="كل الوظائف"><span role="img" aria-label="emoji">👨 </span>كل الوظائف</option>
+            <option value="كل الوظائف"><span role="img" aria-label="emoji">👨‍🍳 </span>كل الوظائف</option>
             <option value="full-time">طاهي/شيف</option>
             <option value="part-time">مدير تشغيل</option>
             <option value="freelance">باريستا</option>
