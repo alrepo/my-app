@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar";
 
 let jobs = [
   {
-    jobTitle: "طباخ خبير",
+    jobTitle: "طباخ [خبي]ر",
     companyName: "مطاعم ماكدونلدز",
     companyLogo: "https://pbs.twimg.com/profile_images/1625792557291651073/GDxGcTsc_400x400.png",
     location: "المنطقة الشرقية",
