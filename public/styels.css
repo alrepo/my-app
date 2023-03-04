@@ -28,7 +28,8 @@
     color: #fff;
     background-color: red;
     border-radius: 10px;
-    border: none;
+    border: solid 1px;
+    border-color: red;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -180,7 +181,8 @@
     color: #fff;
     background-color: red;
     border-radius: 10px;
-    border: none;
+    border: solid 0.5px;
+    border-color: red;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -202,7 +204,7 @@
   {
     background-color: white;
     color: red;
-    border: solid;
+    border: solid 0.5px;
     border-color: red;
   }
 .pin
@@ -230,7 +232,8 @@
       color: #fff;
       background-color: red;
       border-radius: 10px;
-      border: none;
+      border: solid 1px;
+      border-color: red;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
@@ -381,7 +384,8 @@
       color: #fff;
       background-color: red;
       border-radius: 10px;
-      border: none;
+      border: solid 0.5px;
+      border-color: red;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
@@ -404,7 +408,7 @@
     {
       background-color: white;
       color: red;
-      border: solid;
+      border: solid 0.5px;
       border-color: red;
     }
     .pin
@@ -434,7 +438,8 @@
       color: #fff;
       background-color: red;
       border-radius: 10px;
-      border: none;
+      border: solid 1px;
+      border-color: red;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
@@ -584,7 +589,8 @@
       color: #fff;
       background-color: red;
       border-radius: 10px;
-      border: none;
+      border: solid 0.5px;
+      border-color: red;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
@@ -606,7 +612,7 @@
     {
       background-color: white;
       color: red;
-      border: solid;
+      border: solid 0.5px;
       border-color: red;
     }
     .pin
@@ -664,7 +670,8 @@
     color: #fff;
     background-color: red;
     border-radius: 10px;
-    border: none;
+    border: solid 1px;
+    border-color: red;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 0.5rem;
