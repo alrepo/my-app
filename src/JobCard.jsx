@@ -1,23 +1,72 @@
 import React from "react";
 import Moment from 'react-moment';
-import 'moment/locale/ar'
+import { useNavigate } from "react-router-dom";
+import 'moment/locale/ar';
 
 function JobCard(props) {
+  const navigate = useNavigate();
+
+  function handleButtonClick(event) {
+    event.stopPropagation(); // Stop the event from propagating to the parent div
+    navigate('/jobs/id=12345/application');
+  }
+
+  function handleCardClick() {
+    navigate('/jobs/id=12345');
+  }
+
   return (
-    <div className="jobCard" dir="rtl">
-      <div className="logoTableColumn">{props.cardShowLogo ? (<img className="companyLogo" src={props.companyLogo} alt="Company Logo" />) : (<img className="companyLogo" src={generateAvatar(props.companyName, 100)} alt="Company Logo" />)}</div>
+    <div className="jobCard" dir="rtl" onClick={handleCardClick}>
+      <div className="logoTableColumn">
+        {props.cardShowLogo ? (
+          <img className="companyLogo" src={props.companyLogo} alt="Company Logo" />
+        ) : (
+          <img className="companyLogo" src={generateAvatar(props.companyName, 100)} alt="Company Logo" />
+        )}
+      </div>
       <div className="CompanyNameAndJobTitleContainer">
         <p className="jobTitle">{props.jobTitle}</p>
         <p className="companyName">{props.companyName}</p>
-        <div className="locationAndSalaryContainer">{props.jobSalary !== null ? (<p className="salary" dir="rtl"><span role="img" aria-label="emoji">💰 </span>{props.jobSalary}</p>) : null}<p className="jobLocation"><span role="img" aria-label="emoji">🌏 </span>{props.jobLocation}</p></div>
+        <div className="locationAndSalaryContainer">
+          {props.jobSalary !== null ? (
+            <p className="salary" dir="rtl">
+              <span role="img" aria-label="emoji">
+                💰{' '}
+              </span>
+              {props.jobSalary}
+            </p>
+          ) : null}
+          <p className="jobLocation">
+            <span role="img" aria-label="emoji">
+              🌏{' '}
+            </span>
+            {props.jobLocation}
+          </p>
+        </div>
       </div>
-      <div className="filterTags"><p className="filter1">{props.filter1}</p>{props.filter2 !== null ? (<p className="filter2">{props.filter2}</p>) : null}</div>
-      <div className="ApplyButtonTableColumn"><div className="applyButton">تقديم</div></div>
-      <div className="timePosted"><Moment fromNow ago>{props.timePosted}</Moment></div>
-      {props.cardFixed > 0 ? (<span className="pin" role="img" aria-label="emoji">📌</span>) : null}
+      <div className="filterTags">
+        <p className="filter1">{props.filter1}</p>
+        {props.filter2 !== null ? <p className="filter2">{props.filter2}</p> : null}
+      </div>
+      <div className="ApplyButtonTableColumn">
+        <div className="applyButton" role="button" onClick={handleButtonClick}>
+          تقديم
+        </div>
+      </div>
+      <div className="timePosted">
+        <Moment fromNow ago>
+          {props.timePosted}
+        </Moment>
+      </div>
+      {props.cardFixed > 0 ? (
+        <span className="pin" role="img" aria-label="emoji">
+          📌
+        </span>
+      ) : null}
     </div>
-  )
+  );
 }
+
 function generateAvatar(username, size) {
   const canvas = document.createElement('canvas');
   const context = canvas.getContext('2d');
