@@ -2,6 +2,7 @@ import React from "react";
 import Moment from 'react-moment';
 import { useNavigate } from "react-router-dom";
 import 'moment/locale/ar';
+import { JobCardDiv, LogoTableColumn, CompanyLogo } from "./job-card.styled.js";
 
 function JobCard(props) {
   const navigate = useNavigate();
@@ -16,14 +17,14 @@ function JobCard(props) {
   }
 
   return (
-    <div className="jobCard" dir="rtl" onClick={handleCardClick}>
-      <div className="logoTableColumn">
+    <JobCardDiv dir="rtl" onClick={handleCardClick}>
+      <LogoTableColumn>
         {props.cardShowLogo ? (
-          <img className="companyLogo" src={props.companyLogo} alt="Company Logo" />
+          <CompanyLogo src={props.companyLogo} alt="Company Logo" />
         ) : (
-          <img className="companyLogo" src={generateAvatar(props.companyName, 100)} alt="Company Logo" />
+          <CompanyLogo className="companyLogo" src={generateAvatar(props.companyName, 100)} alt="Company Logo" />
         )}
-      </div>
+      </LogoTableColumn>
       <div className="CompanyNameAndJobTitleContainer">
         <p className="jobTitle">{props.jobTitle}</p>
         <p className="companyName">{props.companyName}</p>
@@ -63,7 +64,7 @@ function JobCard(props) {
           📌
         </span>
       ) : null}
-    </div>
+    </JobCardDiv>
   );
 }
 

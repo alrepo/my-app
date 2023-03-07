@@ -1,7 +1,8 @@
 import React from "react";
-import JobCard from "./JobCard";
-import SearchBar from "./SearchBar";
+import JobCard from "../JobCard/JobCard";
+import SearchBar from "../SearchBar";
 import { useNavigate } from "react-router-dom";
+import { PostButton, PostButtonContainer } from "./jobs-page.styled.js";
 
 let jobs = [
   {
@@ -118,7 +119,7 @@ function Jobs()
 
   return(
     <div>
-      <div className="postButtonContainer"><div className="postButton" onClick={()=>{navigate('/jobs/new-job-post')}}>أنشر إعلان وظيفي</div></div>
+      <PostButtonContainer><PostButton onClick={()=>{navigate('/jobs/new-job-post')}}>أنشر إعلان وظيفي</PostButton></PostButtonContainer>
       <div>
         <SearchBar />
       </div>

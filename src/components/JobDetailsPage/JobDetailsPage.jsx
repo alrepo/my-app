@@ -2,7 +2,7 @@ import React from "react";
 import Moment from 'react-moment';
 import 'moment/locale/ar';
 
-function JobPage(props)
+function JobDetailsPage(props)
 {
     return(
         <div className="pageContainer">
@@ -43,4 +43,4 @@ function JobPage(props)
     
 }
 
-export default JobPage;
+export default JobDetailsPage;
